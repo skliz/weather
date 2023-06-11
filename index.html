@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>weather</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+		</header>
+		<main class="main">
+			<div class="app" id="app">
+				<div class="app__container">
+					<div class="app__top">
+						<form action="#" class="location-form" id="form">
+							<label for="form-input" class="location-form__label" id="form-label"></label>
+							<input type="text" class="location-form__input" required autocomplete="off" placeholder="Location"
+								id="form-input">
+							<button type="submit" class="location-form__btn" id="form-btn">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+					</div>
+					<div class="app__bottom" id="card-box"></div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+
+		</footer>
+	</div>
+	<script type="module" src="js/script.js"></script>
+</body>
+
+</html>
